@@ -1,0 +1,19 @@
+{
+  "name": "honostatic",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "hono": "^4.6.3"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
+  }
+}
