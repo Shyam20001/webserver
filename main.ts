@@ -1,6 +1,6 @@
 function register() {
     navigator.serviceWorker
-      .register('/sw.js', { scope: '/sw', type: 'module' })
+      .register('/sw.ts', { scope: '/sw', type: 'module' })
       .then(
         function (_registration) {   
           console.log('Register Service Worker: Success')
